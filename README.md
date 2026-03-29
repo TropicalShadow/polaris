@@ -213,7 +213,3 @@ public class S3RegionSource implements RegionSource {
 - **Block Entities**: Not serialized (chests, signs, etc. lose their contents)
 - **Heightmaps**: Not fully implemented
 - **Light Data**: Marked as missing - Minestom recalculates lighting
-
-## License
-
-MIT
