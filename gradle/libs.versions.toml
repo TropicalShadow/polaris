@@ -1,0 +1,12 @@
+[versions]
+minestom = "2026.01.08-1.21.11"
+slf4j = "2.0.17"
+logback = "1.5.28"
+polar = "1.15.0"
+
+
+[libraries]
+minestom = { module = "net.minestom:minestom", version.ref = "minestom" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+minestom-polar = { module = "dev.hollowcube:polar", version.ref = "polar" }
